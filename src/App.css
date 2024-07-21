@@ -1,0 +1,57 @@
+.App{
+  display: flex;
+  height:100vh ;
+  width: 100vw;
+}
+
+.app-banner{
+  height: inherit;
+  width: 50%;
+}
+
+.app-menu{
+  background-color: darkkhaki;
+  height: inherit;
+  width: 50%;
+  overflow-y: auto;
+}
+
+@media only screen and (max-width: 992px) {
+
+  .App{
+    display: flex;
+    flex-direction: column;
+    height:100vh ;
+    width: 100vw;
+  }
+
+  .app-banner{
+    height: 50%;
+    width: 100%;
+  }
+  
+  .app-menu{
+    height: 50%;
+    width: 100%;
+    overflow-y: auto;
+  }
+
+  .banner{
+    height: 100%;
+}
+
+.banner-logo{
+ 
+  background-size: cover;
+
+
+}
+
+.quote{
+  line-height: 5vh;
+  font-size: 28px;
+  position: absolute;
+  margin-top: 25px;
+}
+
+}

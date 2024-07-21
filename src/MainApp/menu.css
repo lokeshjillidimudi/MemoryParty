@@ -1,0 +1,17 @@
+.menu{
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.title{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.item-details{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}

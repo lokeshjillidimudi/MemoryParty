@@ -1,0 +1,30 @@
+.banner{
+    /* align-items: end;
+    justify-content: center;
+    display: flex; */
+    background-color: antiquewhite;
+    height: inherit;
+    width: 100%;
+
+}
+
+.banner-logo{
+    /* background-image: url("../Images/mplogo.png"); */
+    background-image: url("../Images/mplogotransparent.png");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 100%;
+
+}
+
+.quote{
+    background: linear-gradient(to right, #da1433, #f0d605, #f1e808, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    line-height: 10vh;
+    font-size: 50px;
+    position: absolute;
+    left: 50px;
+}
